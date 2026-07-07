@@ -1,0 +1,31 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+env/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# --- IDEs e Editores ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- SonarQube ---
+.scannerwork/
+.sonar/
+
+# --- OWASP Dependency Check ---
+dependency-check-report.html
+dependency-check-report.xml
+data/
+
+# --- Sistema e Logs ---
+*.log
+.DS_Store
+Thumbs.db
